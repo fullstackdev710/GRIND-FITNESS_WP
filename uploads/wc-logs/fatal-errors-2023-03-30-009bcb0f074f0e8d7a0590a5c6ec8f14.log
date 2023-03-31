@@ -1,0 +1,7 @@
+2023-03-30T18:11:17+00:00 CRITICAL Uncaught Error: Class 'Automattic\WooCommerce\Utilities\I18nUtil' not found in /home/customer/www/dev.grindequipment.com/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:809
+Stack trace:
+#0 /home/customer/www/dev.grindequipment.com/public_html/wp-content/plugins/woocommerce/src/Admin/API/Products.php(40): WC_REST_Products_Controller->get_item_schema()
+#1 /home/customer/www/dev.grindequipment.com/public_html/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(388): Automattic\WooCommerce\Admin\API\Products->get_item_schema()
+#2 /home/customer/www/dev.grindequipment.com/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php(555): WP_REST_Controller->get_context_param()
+#3 /home/customer/www/dev.grindequipment.com/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php(2289): WC_REST_CRUD_Controller->get_coll in /home/customer/www/dev.grindequipment.com/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php on line 809
+
