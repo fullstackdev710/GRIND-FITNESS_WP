@@ -10,18 +10,24 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  GRINDFITNESS
 */
 
-.woocommerce div.product div.images .woocommerce-product-gallery__wrapper .zoomImg {
-   background-color: #343a40;
+.woocommerce
+  div.product
+  div.images
+  .woocommerce-product-gallery__wrapper
+  .zoomImg {
+  background-color: #343a40;
 }
-.flex-viewport, .flex-control-thumbs>li {
-   border: solid #ffffff 1px;
+.flex-viewport,
+.flex-control-thumbs > li {
+  border: solid #ffffff 1px;
 }
-.woocommerce .quantity input.qty, .woocommerce-page .quantity input.qty {
-   padding: 6px;
+.woocommerce .quantity input.qty,
+.woocommerce-page .quantity input.qty {
+  padding: 6px;
 }
 .woocommerce-Price-amount {
-   color: #ffffff;
+  color: #ffffff;
 }
 select {
-   cursor: pointer;
+  cursor: pointer;
 }
