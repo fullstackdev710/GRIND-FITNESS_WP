@@ -11,13 +11,6 @@ Note: this function loads the parent stylesheet before, then child theme stylesh
 if (!function_exists('suffice_child_enqueue_child_styles')) {
    function GRINDFITNESS_enqueue_child_styles()
    {
-      // loading parent style
-      wp_register_style(
-         'parente2-style',
-         get_template_directory_uri() . '/style.css'
-      );
-
-      wp_enqueue_style('parente2-style');
       // loading child style
       wp_register_style(
          'childe2-style',

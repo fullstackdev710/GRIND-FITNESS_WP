@@ -31,3 +31,6 @@ Text Domain:  GRINDFITNESS
 select {
   cursor: pointer;
 }
+p {
+  color: red !important;
+}
