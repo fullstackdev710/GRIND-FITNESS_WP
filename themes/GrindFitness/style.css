@@ -31,6 +31,47 @@ Text Domain:  GRINDFITNESS
 select {
   cursor: pointer;
 }
-p {
-  color: red !important;
+
+#customer-total-reviews-btn {
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  max-width: 100px;
+  z-index: 99999;
+  cursor: pointer;
+}
+#customer-total-reviews {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99998;
+  padding-top: 5vh;
+  background-color: #00000089;
+  width: 100%;
+  height: 100vh;
+}
+#customer-total-reviews > div {
+  max-width: 900px;
+  padding: 10px;
+  width: 90%;
+  height: 90vh;
+  overflow: scroll;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  padding-top: 30px;
+}
+#customer-total-reviews-close-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #00a950;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
 }

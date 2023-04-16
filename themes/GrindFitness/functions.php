@@ -13,9 +13,16 @@ if (!function_exists('suffice_child_enqueue_child_styles')) {
    {
       // loading child style
       wp_register_style(
-         'childe2-style',
+         'main-style',
          get_stylesheet_directory_uri() . '/style.css'
       );
-      wp_enqueue_style('childe2-style');
+      wp_enqueue_style('main-style');
    }
 }
+
+function GRINDFITNESS_enqueue_child_scripts()
+{
+   wp_enqueue_script('main-script', get_stylesheet_directory_uri() . '/assets/js/main-script.js');
+}
+
+add_action('wp_enqueue_scripts', 'GRINDFITNESS_enqueue_child_scripts');
