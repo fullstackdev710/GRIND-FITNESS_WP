@@ -75,3 +75,32 @@ select {
   line-height: 20px;
   cursor: pointer;
 }
+.woocommerce #reviews #comments h2,
+#reviews a,
+#reviews .et-db #et-boc .et-l a,
+#et-boc .star-rating span:before,
+#et-boc .star-rating span:before {
+  color: #ffcd00 !important;
+}
+#reviews .cr-summaryBox-wrap {
+  background-color: #343a40;
+}
+.cr-total-rating-count,
+.cr-average-rating * {
+  color: #ffffff !important;
+}
+#learn-more {
+  margin-top: 10px;
+}
+.comment-form-author {
+  width: 49.5%;
+  float: left;
+}
+.comment-form-email {
+  width: 49.5%;
+  float: right;
+}
+.comment-form-author input,
+.comment-form-email input {
+  width: 100% !important;
+}
